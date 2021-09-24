@@ -5,56 +5,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <title>Key of Success Person</title>
   <style>
-    html,
     body {
-      padding: 0;
-      margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5;
-      color: #212529;
-      background-color: #fff;
-      user-select: none;
-      -webkit-text-size-adjust: 100%;
-      -webkit-tap-highlight-color: transparent;
+      background: linear-gradient(-45deg, #ee7752, #e73c3c, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 25s ease infinite;
+      height: 100vh;
     }
 
-    h2 {
-      margin-top: 0;
-      margin-bottom: .5rem;
-      font-weight: 500;
-      line-height: 1.2;
-    }
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
 
-    *,
-    ::after,
-    ::before {
-      box-sizing: border-box;
-    }
+      50% {
+        background-position: 100% 50%;
+      }
 
-    .brand {
-      background-color: #aaa;
-      max-width: 3em;
-      padding: 0 1em;
-      transition: max-width 300ms;
-      cursor: default;
-    }
-
-    .brand:hover {
-      max-width: 5em;
+      100% {
+        background-position: 0% 50%;
+      }
     }
   </style>
 </head>
 
 <body>
-  <nav>
-    <div class="brand">
-      <h2>Didin Fakhrudin</h2>
+  <section class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="container text-white pb-4">
+      <h1 style="line-height: 1.5;">There are no Successful People except those Who are Diligent, Enterprising, and keep
+        trying Without Giving to
+        What is it Aiming for.</h1>
+      <p class="my-4"><i>Keep Trying, Persistent, Don't be shy to ask, no one will help but yourself. Success is not who, success will not come alone unless you bring it.</i></p>
+      <P>- Quote Today.</P>
+      <P class="d-none">- Bagus Fahrudin Jamal</P>
     </div>
-  </nav>
+  </section>
 </body>
 
 </html>
