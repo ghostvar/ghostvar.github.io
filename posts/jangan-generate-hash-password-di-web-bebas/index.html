@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jangan generate hash password di web secara bebas</title>
+
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .container {
+      max-width: 85em;
+      margin: 0 auto;
+    }
+    .navbar {
+      list-style: none;
+      display: flex;
+      gap: 2em;
+      border-bottom: 1px solid teal;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <aside>
+  <ul class="navbar">
+    
+    
+      <li class="">
+        <a href="/">Beranda</a>
+      </li>
+    
+      <li class="">
+        <a href="/posts">Postingan</a>
+      </li>
+    
+      <li class="">
+        <a href="/labs">Laboratorium</a>
+      </li>
+    
+      <li class="">
+        <a href="/tags">Tags</a>
+      </li>
+    
+  </ul>
+</aside>
+
+    
+<article>
+  <h2>Jangan generate hash password di web secara bebas</h2>
+
+  <blockquote>
+<p>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang</p>
+</blockquote>
+<p>Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</p>
+<p>akan tetapi hal ini dapat diselesaikan dengan melakukan enkripsi dari password tersebut metode yang paling umum digunakan adalah bcrypt atau salting</p>
+<p>Dalam pembuatan awal password Umumnya Kebanyakan orang  langsung generate hasil password tersebut di website yang langsung muncul di Google,  memang hal tersebut mudah untuk dilakukan akan tetapi apakah bisa dipercaya, Bisa saja website tersebut akan menyimpan kata kunci password yang umumnya orang-orang buat yang awalnya adalah sementara di kemudian hari menjadi permanen dan perkara.  lebih buruknya lagi ketika password tersebut disimpan menjadi md5, sha1, atau sha256, di mana Hasil tidak akan berubah setiap kali generate hal ini jelas berbeda dengan brcypt.</p>
+<p>walaupun tidak ada sistem yang aman tapi tidaknya kita tetap memperkecil kemungkinan-kemungkinan buruk tersebut</p>
+
+
+  <b>Tags: </b> <a href="/tags/hash"> hash</a>&nbsp;·&nbsp;<a href="/tags/security"> security</a>&nbsp;·&nbsp;<a href="/tags/programming"> programming</a></article>
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/tags/hash/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/jangan-generate-hash-password-di-web-bebas/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/programming/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/security/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/android/</loc>
+    <lastmod>2024-08-29T15:46:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</loc>
+    <lastmod>2024-08-29T15:46:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ios/</loc>
+    <lastmod>2024-08-29T15:46:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2024-08-28T16:01:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/labs/</loc>
+    <lastmod>2024-08-28T16:01:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/mukadimah/</loc>
+    <lastmod>2024-08-28T16:01:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2024-08-28T16:01:12+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+</urlset>
