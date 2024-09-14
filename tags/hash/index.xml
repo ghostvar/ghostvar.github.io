@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hash on Bebas Mau Bahas Apa</title>
-    <link>http://example.org/tags/hash/</link>
+    <link>https://didin.me/tags/hash/</link>
     <description>Recent content in hash on Bebas Mau Bahas Apa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Tue, 03 Sep 2024 23:27:13 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/hash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://didin.me/tags/hash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jangan generate hash password di web secara bebas</title>
-      <link>http://example.org/posts/jangan-generate-hash-password-di-web-bebas/</link>
+      <link>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
       
-      <guid>http://example.org/posts/jangan-generate-hash-password-di-web-bebas/</guid>
+      <guid>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</guid>
       <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
  Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
     </item>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bebas Mau Bahas Apa</title>
-    <link>http://example.org/</link>
+    <link>https://didin.me/</link>
     <description>Recent content on Bebas Mau Bahas Apa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Wed, 28 Aug 2024 16:01:12 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://didin.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jangan generate hash password di web secara bebas</title>
-      <link>http://example.org/posts/jangan-generate-hash-password-di-web-bebas/</link>
+      <link>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
       
-      <guid>http://example.org/posts/jangan-generate-hash-password-di-web-bebas/</guid>
+      <guid>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</guid>
       <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
  Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
     </item>
     
     <item>
       <title>Aplikasi lebih stabil di IOS ketimbang Android</title>
-      <link>http://example.org/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</link>
+      <link>https://didin.me/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</link>
       <pubDate>Thu, 29 Aug 2024 15:46:29 +0700</pubDate>
       
-      <guid>http://example.org/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</guid>
+      <guid>https://didin.me/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</guid>
       <description>TL;DR - Apple hanya dengan varian Iphone nya, IOS date support, dan Pengembang App yang Ketat
  Dengarkan kata mereka sebagai pengguna Android maupun IOS, penggunaan Android kurang lebih dengan harga terjangkau anda sudah dapat bisa memiliki Telepon Pintar dengan fitur minimal adalah bisa mengakses internet, baik itu menggunakan WhatsApp, Youtube, atau Tiktok.
 Ya sebenarnya sih teknikal speaking karena sistemnya iOS itu hanya satu ya ndak ada lagi efek yang perlu dikembangkan ketimbang ke Android di mana ada banyak produsen yang harus mengembangkan device-nya yang bermacam-macam fiturnya di situ kita hasil secara otomatis untuk mendapatkan stabilitas tinggi dalam aplikasi itu kurang memungkinkan karena untuk dalam untuk dapat membangun sebagai contoh satu aplikasi kita Contohkan itu Google Maps itu harus perlu stabil di Sekian banyak perangkat dengan spesifikasinya masing-masing mengingat iOS di mana iPhone itu kan hanya sebagai contoh satu produksi fifon 15 mungkin tidak ada perbedaan yang signifikan dari dasar spesifikasi sebagai contoh dia menggunakan prosesor a15 dan untuk variasinya paling ya mungkin sekarang udah enggak berlanjut untuk iPhone Mini gitu cuman iPhone 15 stok mungkin cuman ada iPhone 15 Pro mungkin tidak ada lagi variasi yang lainnya cuman itu top di bagian apa mungkin kalau bisa dibilang sebelumnya membosankan itu aja gimana kalau semua orang menggunakan satu perangkat yang sama yaitu iPhone dalam sisi marketing dalam di sisi apa perusahaan ya yaitu Apple itu sangat diuntungkan makan karena tidak perlu banyak hal yang dipikirkan hanya satu device stabil di device itu saja gitu berbeda dengan Google gimana pengembangnya ini bukan hanya Google setiap produsen punya hampir kostumizer sendiri sebagai contoh Xiaomi punya OS sendiri walaupun batas dasarnya itu Android dari Google Samsung punya OS sendiri yang minta MUI Samsung itu one UI turun eh OS baru Sama juga seperti Huawei sama juga LG Asus Zenfone dan seterusnya itulah yang menjadikan Android itu tidak stabil ya walaupun sebenarnya di perangkat keras yang mau kuning itu udah cukup stabil ya di beberapa perangkat tapi karena orientasi sistem ini sebagai developer itu kan mengembangkan satu aplikasi harus memikirkan device yang mana akan support walaupun dalam hal itu juga mengatur Ya setidaknya 5 tahun aplikasi itu bisa digunakan update akan selalu ada tapi untuk dukungan support dari perangkat tersebut biasanya 5 tahun akan tidak cepat lagi seperti contoh untuk tahun ini kita beli iPhone 15 untuk 5 tahun kemudian ada support yang tidak akan dilakukan lagi begitu juga berlaku sebagai contoh iPhone 10 XR atau iPhone X yang dulunya speknya itu lumayan harganya udah pasti Ya lumayan itu sekarang sudah terlalu Tertinggal zaman Itu dalam satu pemahaman Yang pertama itu variasi perangkat di mana variasi perangkat Android itu lebih banyak ya ketimbang iOS iOS yang jelas hanya iPhone yang hanya dikembangkan oleh Apple itu sendiri tidak ada pada desain lain yang mengembangkan perangkat iPhone mungkin dalam Sisi sparepart misal kamera dikembangkan oleh Sony itu bisa jadi tapi untuk unit secara utuh itu adalah Apple sendiri jadikan harganya yang mungkin lumayan mahal karena juga konsisten mitos dalam sisi positifnya itu sangat bagus akan tetapi Apa yang terjadi ketika pasar smartphone itu dekorasi oleh satu perusahaan besar berbeda dengan Android gimana Google sendiri yang sebagai pengembang utama dan itu juga open source yang bisa dikembangkan oleh pihak manapun baik itu adalah sebuah perusahaan atau mungkin komunitas untuk mengembangkan versi Androidnya masing-masing kita tahu seperti custom di mana komunitas itu membuat versi Androidnya masing-masing dan juga perusahaan banyak seperti Samsung Xiaomi dan lain-lain itu bebas untuk mengukur tumis sistem Androidnya dalam sisi positif pasar akan tidak ada Monopoli Dalam pengembangan penjualan perangkat smartphone-nya akan tetapi di sisi pengembangan aplikasi di pengembangan sistem itu adalah PR di kemudian hari dimana seorang pengembang bisa jadi perlu memikirkan tentang aplikasinya akan berjalan di perangkat yang seperti apa di perangkat yang berbeda-beda timbang Apple sebagai contoh seorang pengembang akan mengembangkan aplikasinya di tiga device atau 5 device yang berbeda mungkin iPhone 11 iPhone 12 13 dan seterusnya itu tidak berbeda jauh hanya memikirkan itu biasanya hanya pembahasan pro dan kontra dari kedua mekanisme sistem yang sudah memecah belah orang-orang kita tapi sisi lain yang memang kita tergantung setiap orang kalau mau tidak perlu memikirkan aplikasi trace Atau segala macam ya jadi iPhone kalau misalnya masih berusaha dengan memikirkan juga harga murah ya itu dan tentunya adalah Android jalan keluarnya Anda juga bisa melakukan service di official senter mungkin atau di warung-warung dekat rumah ada untuk service perangkat Anda yaitu Android tapi tidak bisa secara resmi service perangkat Apple iPhone itu di dekat-dekat rumah mengingat secara resmi iPhone itu hanya Diba</description>
@@ -34,19 +34,19 @@ Ya sebenarnya sih teknikal speaking karena sistemnya iOS itu hanya satu ya ndak 
     
     <item>
       <title>Laboratorium</title>
-      <link>http://example.org/labs/</link>
+      <link>https://didin.me/labs/</link>
       <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
       
-      <guid>http://example.org/labs/</guid>
+      <guid>https://didin.me/labs/</guid>
       <description>asdaasdasd</description>
     </item>
     
     <item>
       <title>Mukadimah</title>
-      <link>http://example.org/posts/mukadimah/</link>
+      <link>https://didin.me/posts/mukadimah/</link>
       <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
       
-      <guid>http://example.org/posts/mukadimah/</guid>
+      <guid>https://didin.me/posts/mukadimah/</guid>
       <description>Entahlah karena mungkin kadang dengan tidak adanya pekerjaan baik sebuah proyek atau hal-hal lainnya selain kenikmatan untuk bisa bersantai ternyata santai itu akan menjadi sebuah kebosanan yang di mana itu adalah masalah baru yang padahal sebenarnya imajinasi di sana muncul alhasil selain melakukan pekerjaan hobi dan aktivitas lainnya baik itu Mengisi waktu luang bersama keluarga atau Mengisi waktu sendiri ada hal-hal yang memang dirasa dibutuhkan dan setiap tipe orang itu umumnya berbeda-beda bisa satu itu mungkin berolahraga bisa juga mungkin bermusik dan lain sebagainya dalam hal ini saya memilih salah satunya adalah membuat artikel dengan terserah saya untuk mengisi waktu luang yang mungkin membosankan karena di beberapa waktu terkadang sering terlintas Komunikasi itu penting berinteraksi dengan manusia lain itu penting akan tetapi tidak semua orang pasti bisa meluangkan waktu dan juga suatu ide suatu pemikiran itu tidak pasti muncul hanya di satu waktu akan tetapi di saat yang penting justru ide itu terlintas sehingga karena saya mendeskripsikan diri adalah seorang yang malas jadi artikel inilah outputnya</description>
     </item>
     

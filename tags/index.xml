@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bebas Mau Bahas Apa</title>
-    <link>http://example.org/tags/</link>
+    <link>https://didin.me/tags/</link>
     <description>Recent content in Tags on Bebas Mau Bahas Apa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Tue, 03 Sep 2024 23:27:13 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://didin.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hash</title>
-      <link>http://example.org/tags/hash/</link>
+      <link>https://didin.me/tags/hash/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
       
-      <guid>http://example.org/tags/hash/</guid>
+      <guid>https://didin.me/tags/hash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>http://example.org/tags/programming/</link>
+      <link>https://didin.me/tags/programming/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
       
-      <guid>http://example.org/tags/programming/</guid>
+      <guid>https://didin.me/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>http://example.org/tags/security/</link>
+      <link>https://didin.me/tags/security/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
       
-      <guid>http://example.org/tags/security/</guid>
+      <guid>https://didin.me/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>http://example.org/tags/android/</link>
+      <link>https://didin.me/tags/android/</link>
       <pubDate>Thu, 29 Aug 2024 15:46:29 +0700</pubDate>
       
-      <guid>http://example.org/tags/android/</guid>
+      <guid>https://didin.me/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ios</title>
-      <link>http://example.org/tags/ios/</link>
+      <link>https://didin.me/tags/ios/</link>
       <pubDate>Thu, 29 Aug 2024 15:46:29 +0700</pubDate>
       
-      <guid>http://example.org/tags/ios/</guid>
+      <guid>https://didin.me/tags/ios/</guid>
       <description></description>
     </item>
     
