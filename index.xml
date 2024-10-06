@@ -38,7 +38,9 @@ Ya sebenarnya sih teknikal speaking karena sistemnya iOS itu hanya satu ya ndak 
       <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
       
       <guid>https://didin.me/labs/</guid>
-      <description>asdaasdasd</description>
+      <description>Ada banyak riset di waktu lalu, yang saya simpan ke dalam folder proyek test memuat banyak testing framework, bahasa pemrograman, script, dan lain sebagainya, yang tidak bisa saya selalu ingat.
+Jadi dengan adanya artikel ini diharapkan semua riset yang telah saya lakukan dapat saya tulis secara rinci dan jelas sehingga mudah untuk ingat, untungnya bisa bermanfaat untuk para pembaca.
+List Todo dan Hasil Riset  Riset ELK Riset filesystem LVM, ZFS, atau BTRFS Migrasi linux vmware ke proxmox lxc Automatic Postgresql Backup git based versioning Cloudflare Tunnel Riset ESP32 NFC/RFID USB HID ESP32 (Keyboard Mouse to Bluetooth) USB MIDI Controller (Pitch + Mod) USB MIDI Host Sampler ESP32 (perlu DAC) Riset ESP32 CAM (low fps/low quality) Job/Task Queue-Scheduling &amp;amp; Web Hooks Ollama &amp;amp; Docker &amp;amp; Nvidia gpu Riset Teknologi Proxmox (Ceph, Cloudinit, Pbs) Podman Problem (Systemd &amp;amp; Port Expose) Log Data harvesting &amp;amp; store in timeseriesdb Riset Microsoft Active Directory GoHugo Webpage Proxmox HA (Distributed Storage)  Keterangan: Checklist: riset selesai, Tebal: Prioritas, Strip: Riset Drop / tidak dilanjutkan.</description>
     </item>
     
     <item>
