@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on Bebas Mau Bahas Apa</title>
-    <link>https://didin.me/tags/programming/</link>
-    <description>Recent content in programming on Bebas Mau Bahas Apa</description>
+    <title>laravel on Bebas Mau Bahas Apa</title>
+    <link>https://didin.me/tags/laravel/</link>
+    <description>Recent content in laravel on Bebas Mau Bahas Apa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Sun, 06 Oct 2024 21:49:20 +0700</lastBuildDate>
     
-	<atom:link href="https://didin.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://didin.me/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, yaitu ketika mengirimkan form dengan method POST tanpa @csrf,
 Solusi simpel adalah tinggal tambah directive @csrf didalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
 &amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya di waktu ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum (muncul page error 419).</description>
-    </item>
-    
-    <item>
-      <title>Jangan generate hash password di web secara bebas</title>
-      <link>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</link>
-      <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
-      
-      <guid>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</guid>
-      <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
- Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
     </item>
     
   </channel>

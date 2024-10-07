@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bebas Mau Bahas Apa</title>
-    <link>https://didin.me/</link>
-    <description>Recent content on Bebas Mau Bahas Apa</description>
+    <title>Diskusi on Bebas Mau Bahas Apa</title>
+    <link>https://didin.me/diskusi/</link>
+    <description>Recent content in Diskusi on Bebas Mau Bahas Apa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Wed, 28 Aug 2024 16:01:12 +0700</lastBuildDate>
     
-	<atom:link href="https://didin.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://didin.me/diskusi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,50 +22,6 @@ hidup dengan agama itu simpel, kalau susah itu cobaan atau ujian tuhan yang perl
 tuhan itu sayang ke hambanya karena tak akan diberikan ujian kepada hamba jikalau seorang hamba ini tidaklah mampu,
 atau bisa saja tuhan murka terhadap kesalahan hambanya walau sekecil biji dzarrah dan menjadikannya sebagai balasan,
 dan apabila kehidupan seorang hamba ini penuh senang tidak ada masalah juga kemungkinan dua hal</description>
-    </item>
-    
-    <item>
-      <title>Masalah Umum Laravel CSRF Token 419 Page Expired</title>
-      <link>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</link>
-      <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
-      
-      <guid>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</guid>
-      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, yaitu ketika mengirimkan form dengan method POST tanpa @csrf,
-Solusi simpel adalah tinggal tambah directive @csrf didalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
-&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya di waktu ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum (muncul page error 419).</description>
-    </item>
-    
-    <item>
-      <title>Jangan generate hash password di web secara bebas</title>
-      <link>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</link>
-      <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
-      
-      <guid>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</guid>
-      <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
- Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
-    </item>
-    
-    <item>
-      <title>Laboratorium</title>
-      <link>https://didin.me/labs/</link>
-      <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
-      
-      <guid>https://didin.me/labs/</guid>
-      <description>Ada banyak riset di waktu lalu, yang saya simpan ke dalam folder proyek test memuat banyak testing framework, bahasa pemrograman, script, dan lain sebagainya, yang tidak bisa saya selalu ingat.
-Jadi dengan adanya artikel ini diharapkan semua riset yang telah saya lakukan dapat saya tulis secara rinci dan jelas sehingga mudah untuk ingat, untungnya bisa bermanfaat untuk para pembaca.
-List Todo dan Hasil Riset  Riset ELK Riset filesystem LVM, ZFS, atau BTRFS Migrasi linux vmware ke proxmox lxc Automatic Postgresql Backup git based versioning Cloudflare Tunnel Riset ESP32 NFC/RFID USB HID ESP32 (Keyboard Mouse to Bluetooth) USB MIDI Controller (Pitch + Mod) USB MIDI Host Sampler ESP32 (perlu DAC) Riset ESP32 CAM (low fps/low quality) Job/Task Queue-Scheduling &amp;amp; Web Hooks Ollama &amp;amp; Docker &amp;amp; Nvidia gpu Riset Teknologi Proxmox (Ceph, Cloudinit, Pbs) Podman Problem (Systemd &amp;amp; Port Expose) Log Data harvesting &amp;amp; store in timeseriesdb Riset Microsoft Active Directory GoHugo Webpage Proxmox HA (Distributed Storage)  Keterangan: Checklist: riset selesai, Tebal: Prioritas, Strip: Riset Drop / tidak dilanjutkan.</description>
-    </item>
-    
-    <item>
-      <title>Mukadimah</title>
-      <link>https://didin.me/posts/mukadimah/</link>
-      <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
-      
-      <guid>https://didin.me/posts/mukadimah/</guid>
-      <description>Entahlah karena mungkin kadang dengan tidak adanya pekerjaan, bisa jadi sebuah proyek atau hal-hal lainnya,
-Selain kenikmatan untuk bisa bersantai ternyata santai itu akan menjadi sebuah kebosanan yang di mana itu adalah masalah baru
-Padahal sebenarnya disaat itu lah imajinasi muncul, alhasil selain melakukan pekerjaan hobi dan aktivitas lainnya, baik itu Mengisi waktu luang bersama keluarga atau Mengisi waktu sendiri ada hal-hal yang memang dirasa dibutuhkan khusus,
-Dan setiap tipe orang itu umumnya memiliki kebiasaan yang berbeda-beda, mungkin berolahraga bisa juga mungkin bermusik dan lain sebagainya</description>
     </item>
     
     <item>

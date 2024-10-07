@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masalah Umum Laravel CSRF Token 419 Page Expired</title>
+
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .container {
+      max-width: 85em;
+      margin: 0 auto;
+    }
+    .navbar {
+      list-style: none;
+      display: flex;
+      gap: 2em;
+      border-bottom: 1px solid teal;
+      padding: 1em;
+    }
+    a {
+      color: #cfa2ff;
+    }
+    img {
+      width: 100%;
+      max-width: 80%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <aside>
+  <ul class="navbar">
+    
+    
+      <li class="">
+        <a href="/">Beranda</a>
+      </li>
+    
+      <li class="">
+        <a href="/posts">Postingan</a>
+      </li>
+    
+      <li class="">
+        <a href="/labs">Laboratorium</a>
+      </li>
+    
+      <li class="">
+        <a href="/tags">Tags</a>
+      </li>
+    
+  </ul>
+</aside>
+
+    
+<main style="float: left;width: 70%;">
+  <article>
+    <h2>Masalah Umum Laravel CSRF Token 419 Page Expired</h2>
+  
+    <p>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, yaitu ketika mengirimkan form dengan method POST tanpa <code>@csrf</code>,</p>
+<p>Solusi simpel adalah tinggal tambah directive <code>@csrf</code> didalam tag <code>&lt;form&gt;</code> atau membuat input khusus dengan nama token seperti berikut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_token&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hidden&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ @csrf_token() }}&#34;</span>&gt;
+</code></pre></div><p>Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya di waktu ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum (muncul page error 419).</p>
+<p>Entah alasannya kenapa Laravel punya phobia khusus untuk csrf, karena umumnya ini tidak terinclude dalam framework lain.</p>
+<p>Tapi berikut adalah dua metode untuk menyelesaikan masalah tersebut.</p>
+<h3 id="metode-1-tag-meta-untuk-refresh-browser-ketika-session-sudah-timeout">Metode 1. Tag meta untuk refresh browser ketika session sudah Timeout</h3>
+<p>Dengan menambahkan potongan kode berikut di tag header,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">http-equiv</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;refresh&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ config(&#39;session.lifetime&#39;) * 60 }}&#34;</span>&gt;
+</code></pre></div><h3 id="metode-2-kostum-laman-error-page-419">Metode 2. Kostum Laman Error Page 419</h3>
+<p>kurang lebih dengan potongan berikut, dan simpan ke dalam folder <code>resources/views/errors</code> dan buat file dengan nama <code>419.blade.php</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
+  &lt;<span style="color:#f92672">title</span>&gt;Redirecting ... &lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Laman telah kadaluarsa, melakukan refresh dalam 3 detik. Jika tidak terjadi perubahan klik &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ url(&#39;/&#39;) }}&#34;</span>&gt;link ini.&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+
+&lt;<span style="color:#f92672">script</span>&gt;
+  <span style="color:#a6e22e">setTimeout</span>(() =&gt; {
+    window.<span style="color:#a6e22e">location</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`{{ url(&#39;/&#39;) }}`</span>;
+  }, <span style="color:#ae81ff">3000</span>);
+&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div><p>Tidak harus memilih untuk menggunakan salah satu metode 1 atau 2, kedua metode ini dapat di aplikasikan bersamaan seperti yang saya lakukan.</p>
+<p>Refrensi:</p>
+<ul>
+<li><a href="https://talltips.novate.co.uk/laravel/csrf-and-expired-login-forms">https://talltips.novate.co.uk/laravel/csrf-and-expired-login-forms</a></li>
+</ul>
+
+  
+    <b>Tags: </b><a href="/tags/laravel"> laravel</a>&nbsp;·&nbsp;<a href="/tags/programming"> programming</a></article>
+  <br>
+  <br>
+</main>
+<aside style="float: left;width: 30%;">
+  <h4 style="padding-bottom: 5px;border-bottom: 1px solid teal;">Kontak Person</h4>
+  <ul>
+    <li><a href="mailto:bagus.fahrudin@students.utdi.ac.id">Email</a></li>
+    <li><a href="https://github.com/ghostvar/" target="_blank">Github</a></li>
+    <li><a href="https://t.me/didinfakhrudin/" target="_blank">Telegram</a></li>
+  </ul>
+  <h4 style="padding-bottom: 5px;border-bottom: 1px solid teal;">Link Mungkin Berguna</h4>
+  <ul>
+    <li><a href="https://ftp.didin.me/" target="_blank">FTP</a></li>
+    <li><a href="https://data.didin.me/" target="_blank">h5ai</a></li>
+    <li><a href="https://med.didin.me/" target="_blank">Jellyfin</a></li>
+    <li><a href="javascript:alert('todo: perlu redirect path ke domain')">Service Status</a></li>
+  </ul>
+  
+</aside>
+
+
+  </div>
+</body>
+
+</html>

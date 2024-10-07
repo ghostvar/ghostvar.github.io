@@ -24,6 +24,13 @@
       border-bottom: 1px solid teal;
       padding: 1em;
     }
+    a {
+      color: #cfa2ff;
+    }
+    img {
+      width: 100%;
+      max-width: 80%;
+    }
   </style>
 </head>
 
@@ -61,29 +68,25 @@
     
     <li>
       <h2>
+        <a href="https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/">
+          Masalah Umum Laravel CSRF Token 419 Page Expired
+        </a>
+      </h2>
+      <small>2024-10-06 21:49:20 &#43;0700 WIB</small>
+      <p>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, yaitu ketika mengirimkan form dengan method POST tanpa @csrf,
+Solusi simpel adalah tinggal tambah directive @csrf didalam tag &lt;form&gt; atau membuat input khusus dengan nama token seperti berikut
+&lt;input name=&#34;_token&#34; type=&#34;hidden&#34; …</p>
+    </li>
+    
+    <li>
+      <h2>
         <a href="https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/">
           Jangan generate hash password di web secara bebas
         </a>
       </h2>
       <small>2024-09-03 23:27:13 &#43;0700 WIB</small>
-      <blockquote>
-<p>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang</p>
-</blockquote>
-<p>Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang …</p>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="https://didin.me/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/">
-          Aplikasi lebih stabil di IOS ketimbang Android
-        </a>
-      </h2>
-      <small>2024-08-29 15:46:29 &#43;0700 WIB</small>
-      <blockquote>
-<p>TL;DR - Apple hanya dengan varian Iphone nya, IOS date support, dan Pengembang App yang Ketat</p>
-</blockquote>
-<p>Dengarkan kata mereka sebagai pengguna Android maupun IOS, penggunaan Android kurang lebih dengan harga terjangkau anda sudah dapat bisa memiliki Telepon Pintar dengan fitur minimal adalah bisa mengakses internet, baik itu menggunakan WhatsApp, Youtube, atau Tiktok.</p>
-<p>Ya sebenarnya sih teknikal speaking karena sistemnya iOS itu hanya satu ya ndak ada lagi efek yang perlu dikembangkan ketimbang ke Android di mana …</p>
+      <p> TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
+ Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang …</p>
     </li>
     
     <li>
@@ -93,7 +96,9 @@
         </a>
       </h2>
       <small>2024-08-28 16:01:12 &#43;0700 WIB</small>
-      <p>Entahlah karena mungkin kadang dengan tidak adanya pekerjaan baik sebuah proyek atau hal-hal lainnya  selain kenikmatan untuk bisa bersantai ternyata santai itu akan menjadi sebuah kebosanan yang di mana itu adalah masalah baru yang padahal sebenarnya imajinasi di sana muncul alhasil selain melakukan pekerjaan hobi dan aktivitas lainnya baik itu Mengisi waktu luang bersama keluarga atau Mengisi waktu sendiri ada hal-hal yang memang dirasa  dibutuhkan dan setiap tipe orang itu umumnya berbeda-beda bisa satu …</p>
+      <p>Entahlah karena mungkin kadang dengan tidak adanya pekerjaan, bisa jadi sebuah proyek atau hal-hal lainnya,
+Selain kenikmatan untuk bisa bersantai ternyata santai itu akan menjadi sebuah kebosanan yang di mana itu adalah masalah baru
+Padahal sebenarnya disaat itu lah imajinasi muncul, alhasil selain melakukan pekerjaan …</p>
     </li>
     
   </ul>
@@ -107,6 +112,7 @@
 <aside style="float: left;width: 30%;">
   <h4 style="padding-bottom: 5px;border-bottom: 1px solid teal;">Kontak Person</h4>
   <ul>
+    <li><a href="mailto:bagus.fahrudin@students.utdi.ac.id">Email</a></li>
     <li><a href="https://github.com/ghostvar/" target="_blank">Github</a></li>
     <li><a href="https://t.me/didinfakhrudin/" target="_blank">Telegram</a></li>
   </ul>
@@ -115,6 +121,7 @@
     <li><a href="https://ftp.didin.me/" target="_blank">FTP</a></li>
     <li><a href="https://data.didin.me/" target="_blank">h5ai</a></li>
     <li><a href="https://med.didin.me/" target="_blank">Jellyfin</a></li>
+    <li><a href="javascript:alert('todo: perlu redirect path ke domain')">Service Status</a></li>
   </ul>
   
 </aside>
