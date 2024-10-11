@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bebas Mau Bahas Apa</title>
+    <title>Bebas Saya Mau Bahas Apa Aja</title>
     <link>https://didin.me/</link>
-    <description>Recent content on Bebas Mau Bahas Apa</description>
+    <description>Recent content on Bebas Saya Mau Bahas Apa Aja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
     <lastBuildDate>Wed, 28 Aug 2024 16:01:12 +0700</lastBuildDate>
@@ -30,9 +30,9 @@ dan apabila kehidupan seorang hamba ini penuh senang tidak ada masalah juga kemu
       <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
       
       <guid>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</guid>
-      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, yaitu ketika mengirimkan form dengan method POST tanpa @csrf,
-Solusi simpel adalah tinggal tambah directive @csrf didalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
-&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya di waktu ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum (muncul page error 419).</description>
+      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,
+Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
+&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
     </item>
     
     <item>

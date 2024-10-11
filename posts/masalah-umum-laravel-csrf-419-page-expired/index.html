@@ -15,6 +15,7 @@
     .container {
       max-width: 85em;
       margin: 0 auto;
+      padding: 0 1em;
     }
     .navbar {
       list-style: none;
@@ -23,12 +24,44 @@
       border-bottom: 1px solid teal;
       padding: 1em;
     }
+    .main {
+      float: left;
+      width: 70%;
+    }
+    .sidebar {
+      float: left;
+      width: 30%;
+    }
+    @media (max-width: 720px) {
+      .main {
+        width: 100%;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
+    article {
+      padding: 0 1em;
+    }
     a {
       color: #cfa2ff;
     }
     img {
       width: 100%;
       max-width: 80%;
+    }
+    pre {
+      padding: 20px;
+      overflow: scroll;
+    }
+    blockquote {
+      margin: 0;
+      padding: .5em 1em;
+      border-left: .25em solid #0af;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    blockquote p {
+      margin: 0;
     }
   </style>
 </head>
@@ -60,14 +93,14 @@
 </aside>
 
     
-<main style="float: left;width: 70%;">
+<main class="main">
   <article>
     <h2>Masalah Umum Laravel CSRF Token 419 Page Expired</h2>
   
-    <p>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, yaitu ketika mengirimkan form dengan method POST tanpa <code>@csrf</code>,</p>
-<p>Solusi simpel adalah tinggal tambah directive <code>@csrf</code> didalam tag <code>&lt;form&gt;</code> atau membuat input khusus dengan nama token seperti berikut</p>
+    <p>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive <code>@csrf</code>,</p>
+<p>Solusi simpel adalah tinggal tambah directive <code>@csrf</code> di dalam tag <code>&lt;form&gt;</code> atau membuat input khusus dengan nama token seperti berikut</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_token&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hidden&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ @csrf_token() }}&#34;</span>&gt;
-</code></pre></div><p>Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya di waktu ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum (muncul page error 419).</p>
+</code></pre></div><p>Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</p>
 <p>Entah alasannya kenapa Laravel punya phobia khusus untuk csrf, karena umumnya ini tidak terinclude dalam framework lain.</p>
 <p>Tapi berikut adalah dua metode untuk menyelesaikan masalah tersebut.</p>
 <h3 id="metode-1-tag-meta-untuk-refresh-browser-ketika-session-sudah-timeout">Metode 1. Tag meta untuk refresh browser ketika session sudah Timeout</h3>
@@ -97,17 +130,22 @@
 <ul>
 <li><a href="https://talltips.novate.co.uk/laravel/csrf-and-expired-login-forms">https://talltips.novate.co.uk/laravel/csrf-and-expired-login-forms</a></li>
 </ul>
+<p>Keyword:</p>
+<ul>
+<li>Kenapa Muncul Halaman 419 Page Expired Pada Laravel</li>
+<li>Fix error Page Expired Http code 419</li>
+</ul>
 
   
     <b>Tags: </b><a href="/tags/laravel"> laravel</a>&nbsp;·&nbsp;<a href="/tags/programming"> programming</a></article>
   <br>
   <br>
 </main>
-<aside style="float: left;width: 30%;">
+<aside class="sidebar">
   <h4 style="padding-bottom: 5px;border-bottom: 1px solid teal;">Kontak Person</h4>
   <ul>
-    <li><a href="mailto:bagus.fahrudin@students.utdi.ac.id">Email</a></li>
-    <li><a href="https://github.com/ghostvar/" target="_blank">Github</a></li>
+    <li><a href="mailto:bagus.fahrudin@students.utdi.ac.id">E-mail</a></li>
+    <li><a href="https://github.com/ghostvar/" target="_blank">GitHub</a></li>
     <li><a href="https://t.me/didinfakhrudin/" target="_blank">Telegram</a></li>
   </ul>
   <h4 style="padding-bottom: 5px;border-bottom: 1px solid teal;">Link Mungkin Berguna</h4>
