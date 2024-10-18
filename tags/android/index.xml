@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Bebas Saya Mau Bahas Apa Aja</title>
+    <link>http://localhost:1313/tags/android/</link>
+    <description>Recent content in Android on Bebas Saya Mau Bahas Apa Aja</description>
+    <generator>Hugo</generator>
+    <language>id-id</language>
+    <lastBuildDate>Thu, 29 Aug 2024 15:46:29 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikasi lebih stabil di IOS ketimbang Android</title>
+      <link>http://localhost:1313/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</link>
+      <pubDate>Thu, 29 Aug 2024 15:46:29 +0700</pubDate>
+      <guid>http://localhost:1313/posts/aplikasi-lebih-stabil-di-ios-ketimbang-android/</guid>
+      <description>TL;DR - Apple hanya dengan varian Iphone nya, IOS date support, dan Pengembang App yang Ketat&#xA;Ya sebenarnya sih secara teknik karena sistemnya iOS itu hanya dalam satu produk memungkinkan untuk perusahaan untuk lebih fokus dalam stabilitas, ketimbang Android di mana ada banyak produsen yang harus menyesuaikan spesifik per-vendor yang memiliki bermacam-macam spesifikasi dan fitur tersendiri.&#xA;Dari di situ lah kenapa secara otomatis untuk mendapatkan stabilitas tinggi aplikasi dalam android itu kurang memungkinkan, karena untuk dalam untuk dapat membangun sebagai contoh satu aplikasi kita seperti Google Maps itu harus perlu kepastian stabil di Sekian banyak perangkat dengan spesifikasinya masing-masing berbeda, mengingat iOS di mana perangkat iPhone itu saja.</description>
+    </item>
+  </channel>
+</rss>
