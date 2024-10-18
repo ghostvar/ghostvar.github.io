@@ -7,41 +7,14 @@
   <title>Jangan generate hash password di web secara bebas</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       background-color: #1e1e1e;
       color: #fff;
+      margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .container {
-      max-width: 85em;
-      margin: 0 auto;
-      padding: 0 1em;
-    }
-    .navbar {
-      list-style: none;
-      display: flex;
-      gap: 2em;
-      border-bottom: 1px solid teal;
-      padding: 1em;
-    }
-    .main {
-      float: left;
-      width: 70%;
-    }
-    .sidebar {
-      float: left;
-      width: 30%;
-    }
-    @media (max-width: 720px) {
-      .main {
-        width: 100%;
-      }
-      .sidebar {
-        width: 100%;
-      }
-    }
-    article {
-      padding: 0 1em;
     }
     a {
       color: #cfa2ff;
@@ -63,6 +36,56 @@
     blockquote p {
       margin: 0;
     }
+    .container {
+      max-width: 85em;
+      margin: 0 auto;
+      padding: 0 1em;
+    }
+    .navbar {
+      list-style: none;
+      overflow: hidden;
+      border-bottom: 1px solid teal;
+      padding: 10px 0;
+      margin: 0;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li a {
+      padding: 1rem 1.5em;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+    }
+    .navbar li a.active, .navbar li a:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .main {
+      float: left;
+      width: 70%;
+    }
+    .sidebar {
+      float: left;
+      width: 30%;
+    }
+    .wrap {
+      padding: 0 1em;
+    }
+    .ls-none {
+      padding: 0;
+      list-style: none;
+    }
+    .title {
+      font-size: 2em;
+    }
+    @media (max-width: 720px) {
+      .main {
+        width: 100%;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -73,20 +96,20 @@
   <ul class="navbar">
     
     
-      <li class="">
-        <a href="/">Beranda</a>
+      <li>
+        <a class="" href="/">Beranda</a>
       </li>
     
-      <li class="">
-        <a href="/posts">Postingan</a>
+      <li>
+        <a class="" href="/posts/">Postingan</a>
       </li>
     
-      <li class="">
-        <a href="/labs">Laboratorium</a>
+      <li>
+        <a class="" href="/labs/">Laboratorium</a>
       </li>
     
-      <li class="">
-        <a href="/tags">Tags</a>
+      <li>
+        <a class="" href="/tags/">Tags</a>
       </li>
     
   </ul>
@@ -94,9 +117,13 @@
 
     
 <main class="main">
-  <article>
-    <h2>Jangan generate hash password di web secara bebas</h2>
-  
+  <article class="wrap">
+    <h2 class="title">Jangan generate hash password di web secara bebas</h2>
+
+    <p style="padding-right: 2em;text-align: right;margin-top: -2em;">
+      <small>2024-09-03 23:27:13 &#43;0700 WIB</small>
+    </p>
+
     <blockquote>
 <p>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang</p>
 </blockquote>
@@ -105,8 +132,9 @@
 <p>Dalam pembuatan awal password Umumnya Kebanyakan orang  langsung generate hasil password tersebut di website yang langsung muncul di Google,  memang hal tersebut mudah untuk dilakukan akan tetapi apakah bisa dipercaya, Bisa saja website tersebut akan menyimpan kata kunci password yang umumnya orang-orang buat yang awalnya adalah sementara di kemudian hari menjadi permanen dan perkara.  lebih buruknya lagi ketika password tersebut disimpan menjadi md5, sha1, atau sha256, di mana Hasil tidak akan berubah setiap kali generate hal ini jelas berbeda dengan brcypt.</p>
 <p>walaupun tidak ada sistem yang aman tapi tidaknya kita tetap memperkecil kemungkinan-kemungkinan buruk tersebut</p>
 
-  
-    <b>Tags: </b><a href="/tags/hash"> hash</a>&nbsp;·&nbsp;<a href="/tags/security"> security</a>&nbsp;·&nbsp;<a href="/tags/programming"> programming</a></article>
+
+    <b>Tags: </b><a href="/tags/hash">hash</a>&nbsp;·&nbsp;<a href="/tags/security">security</a>&nbsp;·&nbsp;<a href="/tags/programming">programming</a></article>
+  <br>
   <br>
   <br>
 </main>

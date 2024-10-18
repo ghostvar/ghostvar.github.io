@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elektronik on Bebas Saya Mau Bahas Apa Aja</title>
+    <link>https://didin.me/tags/elektronik/</link>
+    <description>Recent content in Elektronik on Bebas Saya Mau Bahas Apa Aja</description>
+    <generator>Hugo</generator>
+    <language>id-id</language>
+    <lastBuildDate>Fri, 18 Oct 2024 13:46:49 +0700</lastBuildDate>
+    <atom:link href="https://didin.me/tags/elektronik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redmi 9 Bootloop Tanpa Sebab</title>
+      <link>https://didin.me/posts/redmi-9-bootloop-tanpa-sebab/</link>
+      <pubDate>Fri, 18 Oct 2024 13:46:49 +0700</pubDate>
+      <guid>https://didin.me/posts/redmi-9-bootloop-tanpa-sebab/</guid>
+      <description>Pertengahan tahun kemarin hp doi yang sudah ndak kepake Xiaomi Redmi 9 diwarisin ke orangtua, walaupun sebenernya akhirnya juga jarang dipake karena ada masalah.&#xA;Hp Xiaomi ini mati tiba-tiba tanpa sebab, padahal pemakaian biasa masih normal, tapi setelah lama tidak di pakai malah tiba-tiba bermasalah.&#xA;Masalahnya adalah bootloop padahal tidak pernah melakukan modifikasi ROM / Firmware dan semacamnya, alhasil saya flash ulang untuk sementara berhasil, tidak untuk waktu yang lama masalah bootloop berulah lagi.</description>
+    </item>
+  </channel>
+</rss>

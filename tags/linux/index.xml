@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Bebas Saya Mau Bahas Apa Aja</title>
+    <link>https://didin.me/tags/linux/</link>
+    <description>Recent content in Linux on Bebas Saya Mau Bahas Apa Aja</description>
+    <generator>Hugo</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sat, 12 Oct 2024 13:52:03 +0700</lastBuildDate>
+    <atom:link href="https://didin.me/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install File Binary Archive Zip Tar Gz Di Linux</title>
+      <link>https://didin.me/posts/installing-binary-archive-di-linux/</link>
+      <pubDate>Sat, 12 Oct 2024 13:52:03 +0700</pubDate>
+      <guid>https://didin.me/posts/installing-binary-archive-di-linux/</guid>
+      <description>Sebenernya orang-orang umumnya tidak peduli kamu menggunakan linux, bahkan orangtua kamu. Tapi sebagian lagi orang non umum peduli, khususnya dalam dunia teknologi.&#xA;Saya mengakui dalam kebutuhan tertentu, macOS dan Windows adalah pilihan. Tapi dalam dunia teknologi linux superior, tapi kita sedang tidak membandingkan OS disini.&#xA;Karena akhir-akhir ini lebih sering bekerja di server, linux jauh lebih stabil ketimbang windows, lalu setelahnya BSD Based.&#xA;Khususnya dalam kebutuhan installasi program sudah ada package manager, yang mempermudah installasi aplikasi sekaligus library di dalamnya.</description>
+    </item>
+  </channel>
+</rss>

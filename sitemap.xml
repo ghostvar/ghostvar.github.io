@@ -1,99 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://didin.me/diskusi/apa-arti-kehidupan/</loc>
-    <lastmod>2024-10-07T22:04:29+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/tags/laravel/</loc>
-    <lastmod>2024-10-06T21:49:20+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</loc>
-    <lastmod>2024-10-06T21:49:20+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/tags/programming/</loc>
-    <lastmod>2024-10-06T21:49:20+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/tags/</loc>
-    <lastmod>2024-10-06T21:49:20+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/tags/hash/</loc>
-    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</loc>
-    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://didin.me/tags/security/</loc>
-    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://didin.me/</loc>
-    <lastmod>2024-08-28T16:01:12+07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-10-18T13:46:49+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/elektronik/</loc>
+    <lastmod>2024-10-18T13:46:49+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/perbaikan/</loc>
+    <lastmod>2024-10-18T13:46:49+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/posts/redmi-9-bootloop-tanpa-sebab/</loc>
+    <lastmod>2024-10-18T13:46:49+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/</loc>
+    <lastmod>2024-10-18T13:46:49+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/xiaomi/</loc>
+    <lastmod>2024-10-18T13:46:49+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/posts/installing-binary-archive-di-linux/</loc>
+    <lastmod>2024-10-12T13:52:03+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/linux/</loc>
+    <lastmod>2024-10-12T13:52:03+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/zig/</loc>
+    <lastmod>2024-10-12T13:52:03+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/posts/pedatren-ketika-pengabdian-berkolaborasi-dengan-teknologi/</loc>
+    <lastmod>2024-10-11T17:44:42+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/programming/</loc>
+    <lastmod>2024-10-11T17:44:42+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/story/</loc>
+    <lastmod>2024-10-11T17:44:42+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/diskusi/apa-arti-kehidupan/</loc>
+    <lastmod>2024-10-07T22:04:29+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/laravel/</loc>
+    <lastmod>2024-10-06T21:49:20+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</loc>
+    <lastmod>2024-10-06T21:49:20+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/hash/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url><url>
+    <loc>https://didin.me/tags/security/</loc>
+    <lastmod>2024-09-03T23:27:13+07:00</lastmod>
+  </url><url>
     <loc>https://didin.me/diskusi/</loc>
     <lastmod>2024-08-28T16:01:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/labs/</loc>
     <lastmod>2024-08-28T16:01:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/posts/mukadimah/</loc>
     <lastmod>2024-08-28T16:01:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/posts/</loc>
     <lastmod>2024-08-28T16:01:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/diskusi/pelampiasan-dan-penyesalan/</loc>
     <lastmod>2024-04-04T10:32:02+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/diskusi/menerima-menghadapi-menjalani/</loc>
     <lastmod>2024-02-04T13:25:13+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/diskusi/dua-orang-pedagang/</loc>
     <lastmod>2024-01-20T06:54:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/diskusi/sudah-tiada-baru-terasa/</loc>
     <lastmod>2023-12-31T13:51:26+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/diskusi/pilot-bisa-menjadi-guru/</loc>
     <lastmod>2023-09-03T22:16:34+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://didin.me/categories/</loc>
   </url>
-  
 </urlset>

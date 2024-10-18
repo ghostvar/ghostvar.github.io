@@ -4,11 +4,8 @@
     <title>Categories on Bebas Saya Mau Bahas Apa Aja</title>
     <link>https://didin.me/categories/</link>
     <description>Recent content in Categories on Bebas Saya Mau Bahas Apa Aja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>id-id</language>
-    
-	<atom:link href="https://didin.me/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://didin.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

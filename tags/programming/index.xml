@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on Bebas Saya Mau Bahas Apa Aja</title>
+    <title>Programming on Bebas Saya Mau Bahas Apa Aja</title>
     <link>https://didin.me/tags/programming/</link>
-    <description>Recent content in programming on Bebas Saya Mau Bahas Apa Aja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Programming on Bebas Saya Mau Bahas Apa Aja</description>
+    <generator>Hugo</generator>
     <language>id-id</language>
-    <lastBuildDate>Sun, 06 Oct 2024 21:49:20 +0700</lastBuildDate>
-    
-	<atom:link href="https://didin.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 11 Oct 2024 17:44:42 +0700</lastBuildDate>
+    <atom:link href="https://didin.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pedatren: Ketika Pengabdian Berkolaborasi Dengan Teknologi Informasi</title>
+      <link>https://didin.me/posts/pedatren-ketika-pengabdian-berkolaborasi-dengan-teknologi/</link>
+      <pubDate>Fri, 11 Oct 2024 17:44:42 +0700</pubDate>
+      <guid>https://didin.me/posts/pedatren-ketika-pengabdian-berkolaborasi-dengan-teknologi/</guid>
+      <description>Pondok Pesantren Nurul Jadid Painton Probolinggo, Tempat Mengaji dan Membina Akhlak. Begitulah misi nya, saya masuk pondok pesantren ini ketika sekolah menengah atas dan masuk di salah satu lembaga kejuruan yaitu SMK Nurul Jadid.&#xA;Sebelumnya saya sudah masuk pondok pesantren ketika lulus sekolah dasar, di Pondok Pesantren Syalafiah Syafi&amp;rsquo;iyah Sukorejo. Tidak banyak kenangan yang saya ingat, hanya beberapa momen keluh dan kesah yang masih berbekas di benak.&#xA;Karena tidak ada yang spesial dalam jenjang pendidikan sebelumnya saya memiliki tekat kuat untuk belajar, ketika masuk Pondok Pesantren Nurul Jadid.</description>
+    </item>
     <item>
       <title>Masalah Umum Laravel CSRF Token 419 Page Expired</title>
       <link>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</link>
       <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
-      
       <guid>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</guid>
-      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,
-Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
-&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
+      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,&#xA;Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut&#xA;&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
     </item>
-    
     <item>
       <title>Jangan generate hash password di web secara bebas</title>
       <link>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
-      
       <guid>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</guid>
-      <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
- Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
+      <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang&#xA;Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
     </item>
-    
   </channel>
 </rss>

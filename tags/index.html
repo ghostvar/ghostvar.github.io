@@ -7,41 +7,14 @@
   <title>Tags</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       background-color: #1e1e1e;
       color: #fff;
+      margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .container {
-      max-width: 85em;
-      margin: 0 auto;
-      padding: 0 1em;
-    }
-    .navbar {
-      list-style: none;
-      display: flex;
-      gap: 2em;
-      border-bottom: 1px solid teal;
-      padding: 1em;
-    }
-    .main {
-      float: left;
-      width: 70%;
-    }
-    .sidebar {
-      float: left;
-      width: 30%;
-    }
-    @media (max-width: 720px) {
-      .main {
-        width: 100%;
-      }
-      .sidebar {
-        width: 100%;
-      }
-    }
-    article {
-      padding: 0 1em;
     }
     a {
       color: #cfa2ff;
@@ -63,6 +36,56 @@
     blockquote p {
       margin: 0;
     }
+    .container {
+      max-width: 85em;
+      margin: 0 auto;
+      padding: 0 1em;
+    }
+    .navbar {
+      list-style: none;
+      overflow: hidden;
+      border-bottom: 1px solid teal;
+      padding: 10px 0;
+      margin: 0;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li a {
+      padding: 1rem 1.5em;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+    }
+    .navbar li a.active, .navbar li a:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .main {
+      float: left;
+      width: 70%;
+    }
+    .sidebar {
+      float: left;
+      width: 30%;
+    }
+    .wrap {
+      padding: 0 1em;
+    }
+    .ls-none {
+      padding: 0;
+      list-style: none;
+    }
+    .title {
+      font-size: 2em;
+    }
+    @media (max-width: 720px) {
+      .main {
+        width: 100%;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -73,56 +96,105 @@
   <ul class="navbar">
     
     
-      <li class="">
-        <a href="/">Beranda</a>
+      <li>
+        <a class="" href="/">Beranda</a>
       </li>
     
-      <li class="">
-        <a href="/posts">Postingan</a>
+      <li>
+        <a class="" href="/posts/">Postingan</a>
       </li>
     
-      <li class="">
-        <a href="/labs">Laboratorium</a>
+      <li>
+        <a class="" href="/labs/">Laboratorium</a>
       </li>
     
-      <li class="">
-        <a href="/tags">Tags</a>
+      <li>
+        <a class="active" href="/tags/">Tags</a>
       </li>
     
   </ul>
 </aside>
 
     
-  
+<main>
+  <div class="wrap">
+    
+    <h2 style="display: inline-block;">
+      &nbsp;·&nbsp;
+      <a href="https://didin.me/tags/elektronik/">
+        Elektronik
+      </a>
+    </h2>
+    
     <h2 style="display: inline-block;">
       &nbsp;·&nbsp;
       <a href="https://didin.me/tags/hash/">
-        hash
+        Hash
       </a>
     </h2>
-  
+    
     <h2 style="display: inline-block;">
       &nbsp;·&nbsp;
       <a href="https://didin.me/tags/laravel/">
-        laravel
+        Laravel
       </a>
     </h2>
-  
+    
+    <h2 style="display: inline-block;">
+      &nbsp;·&nbsp;
+      <a href="https://didin.me/tags/linux/">
+        Linux
+      </a>
+    </h2>
+    
+    <h2 style="display: inline-block;">
+      &nbsp;·&nbsp;
+      <a href="https://didin.me/tags/perbaikan/">
+        Perbaikan
+      </a>
+    </h2>
+    
     <h2 style="display: inline-block;">
       &nbsp;·&nbsp;
       <a href="https://didin.me/tags/programming/">
-        programming
+        Programming
       </a>
     </h2>
-  
+    
     <h2 style="display: inline-block;">
       &nbsp;·&nbsp;
       <a href="https://didin.me/tags/security/">
-        security
+        Security
       </a>
     </h2>
-  
-  <h2 style="display: inline-block;">&nbsp;·&nbsp;</h2>
+    
+    <h2 style="display: inline-block;">
+      &nbsp;·&nbsp;
+      <a href="https://didin.me/tags/story/">
+        Story
+      </a>
+    </h2>
+    
+    <h2 style="display: inline-block;">
+      &nbsp;·&nbsp;
+      <a href="https://didin.me/tags/xiaomi/">
+        Xiaomi
+      </a>
+    </h2>
+    
+    <h2 style="display: inline-block;">
+      &nbsp;·&nbsp;
+      <a href="https://didin.me/tags/zig/">
+        Zig
+      </a>
+    </h2>
+    
+    <h2 style="display: inline-block;">&nbsp;·&nbsp;</h2>
+  </div>
+  <br>
+  <br>
+  <br>
+</main>
 
 
   </div>

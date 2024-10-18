@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>laravel on Bebas Saya Mau Bahas Apa Aja</title>
+    <title>Laravel on Bebas Saya Mau Bahas Apa Aja</title>
     <link>https://didin.me/tags/laravel/</link>
-    <description>Recent content in laravel on Bebas Saya Mau Bahas Apa Aja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Laravel on Bebas Saya Mau Bahas Apa Aja</description>
+    <generator>Hugo</generator>
     <language>id-id</language>
     <lastBuildDate>Sun, 06 Oct 2024 21:49:20 +0700</lastBuildDate>
-    
-	<atom:link href="https://didin.me/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://didin.me/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Masalah Umum Laravel CSRF Token 419 Page Expired</title>
       <link>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</link>
       <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
-      
       <guid>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</guid>
-      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,
-Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
-&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
+      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,&#xA;Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut&#xA;&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
     </item>
-    
   </channel>
 </rss>

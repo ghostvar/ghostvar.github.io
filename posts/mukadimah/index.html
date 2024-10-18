@@ -7,41 +7,14 @@
   <title>Mukadimah</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       background-color: #1e1e1e;
       color: #fff;
+      margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .container {
-      max-width: 85em;
-      margin: 0 auto;
-      padding: 0 1em;
-    }
-    .navbar {
-      list-style: none;
-      display: flex;
-      gap: 2em;
-      border-bottom: 1px solid teal;
-      padding: 1em;
-    }
-    .main {
-      float: left;
-      width: 70%;
-    }
-    .sidebar {
-      float: left;
-      width: 30%;
-    }
-    @media (max-width: 720px) {
-      .main {
-        width: 100%;
-      }
-      .sidebar {
-        width: 100%;
-      }
-    }
-    article {
-      padding: 0 1em;
     }
     a {
       color: #cfa2ff;
@@ -63,6 +36,56 @@
     blockquote p {
       margin: 0;
     }
+    .container {
+      max-width: 85em;
+      margin: 0 auto;
+      padding: 0 1em;
+    }
+    .navbar {
+      list-style: none;
+      overflow: hidden;
+      border-bottom: 1px solid teal;
+      padding: 10px 0;
+      margin: 0;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li a {
+      padding: 1rem 1.5em;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+    }
+    .navbar li a.active, .navbar li a:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .main {
+      float: left;
+      width: 70%;
+    }
+    .sidebar {
+      float: left;
+      width: 30%;
+    }
+    .wrap {
+      padding: 0 1em;
+    }
+    .ls-none {
+      padding: 0;
+      list-style: none;
+    }
+    .title {
+      font-size: 2em;
+    }
+    @media (max-width: 720px) {
+      .main {
+        width: 100%;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -73,20 +96,20 @@
   <ul class="navbar">
     
     
-      <li class="">
-        <a href="/">Beranda</a>
+      <li>
+        <a class="" href="/">Beranda</a>
       </li>
     
-      <li class="">
-        <a href="/posts">Postingan</a>
+      <li>
+        <a class="" href="/posts/">Postingan</a>
       </li>
     
-      <li class="">
-        <a href="/labs">Laboratorium</a>
+      <li>
+        <a class="" href="/labs/">Laboratorium</a>
       </li>
     
-      <li class="">
-        <a href="/tags">Tags</a>
+      <li>
+        <a class="" href="/tags/">Tags</a>
       </li>
     
   </ul>
@@ -94,21 +117,27 @@
 
     
 <main class="main">
-  <article>
-    <h2>Mukadimah</h2>
-  
-    <p>Entahlah karena mungkin kadang dengan tidak adanya pekerjaan, bisa jadi sebuah proyek atau hal-hal lainnya,</p>
-<p>Selain kenikmatan untuk bisa bersantai ternyata santai itu akan menjadi sebuah kebosanan yang di mana itu adalah masalah baru</p>
-<p>Padahal sebenarnya disaat itu lah imajinasi muncul, alhasil selain melakukan pekerjaan hobi dan aktivitas lainnya, baik itu Mengisi waktu luang bersama keluarga atau Mengisi waktu sendiri ada hal-hal yang memang dirasa dibutuhkan khusus,</p>
-<p>Dan setiap tipe orang itu umumnya memiliki kebiasaan yang berbeda-beda, mungkin berolahraga bisa juga mungkin bermusik dan lain sebagainya</p>
-<p>Dalam hal ini saya memilih salah satunya adalah membuat artikel dengan mood saya untuk mengisi waktu luang yang mungkin membosankan karena di beberapa waktu terkadang sering terlintas ide</p>
-<p>Apalagi komunikasi itu penting sama halnya berinteraksi dengan manusia lain, tetapi tidak semua orang pasti bisa meluangkan waktu</p>
-<p>Dan juga suatu ide suatu pemikiran itu tidak pasti muncul hanya di satu waktu akan tetapi di saat yang penting justru ide itu terlintas sehingga karena saya mendeskripsikan diri adalah seorang yang malas, bahkan untuk merapikan tulisan ini.</p>
-<p>Saya menerima segala bentuk kritikan dan nasehat, sekaligus saya berharap semoga saya juga bisa menerima semua itu untuk menjadi lebih baik lagi karena saya sadar semua yang saya buat ini  tidaklah sempurna jadi Butuh banyak masukan dari para pembaca teman dan rekan-rekan</p>
-<p>Saya harap semua Artikel dan tulisan ini bisa bermanfaat bagi para pembaca sekaligus mungkin menjadi ide-ide intelektual untuk saya di masa depan nanti, walaupun saya tidak pintar.</p>
+  <article class="wrap">
+    <h2 class="title">Mukadimah</h2>
 
-  
+    <p style="padding-right: 2em;text-align: right;margin-top: -2em;">
+      <small>2024-08-28 16:01:12 &#43;0700 WIB</small>
+    </p>
+
+    <p>Entahlah karena apa, cuman ingin menambah aktivitas positif saja, seperti contoh ya menulis artikel ini.</p>
+<p>Awal punya ketertarikan dengan bilang elektronik ketika SD, karena terpukau dengan barang-barang elektronik ketika keluar musik dan orang tua saya menyolder, walau sampai sekarang saya masih amatiran untuk hal tersebut, saya masih berharap bisa membenahi kulkas orangtua yang sudah saya rusak.</p>
+<p>Beralih hobi ke bidang musik, berasarkan elektronik karena di sekolah juga terpukau dengan barang yang disebut organ dalam hal ini piano sekolah Roland EM-25.</p>
+<p>Kemudian beralih lagi ke bidang Komputer karena terpukau dengan barang elektronik yang bisa menyelesaikan 1001 hal.</p>
+<p>Dan menjadikan pendidikan komputer di SMK dan Kuliah yang awalnya hobi menjadi pekerjaan, alhasil saya perlu mencari hobi lain penghilang stres yaitu musik, jadi selain kerja atau game yang membosankan mengoprasikan perangkat lunak Fruity Loop Studio juga menjadi pengisi waktu sela.</p>
+<p>Sebelum menambah hobi ke bidang holtikultura hidroponik di hidup yang sudah berkeluarga ini, saya pikir tidak salahnya untuk menulis. Karena umumnya pekerjaan sudah banyak menulis dalam bahasa komputer.</p>
+<p>Dulu pernah waktu SMP mungkin sekitar tahun 2013 sudah tau dengan internet dan pernah membuat blog, tapi tidak saya lanjutkan.</p>
+<p>Dan di SMK pernah ikut organisasi kegiatan jusrnalistik, koran dan majalah yang mau tidak mau harus ikut.</p>
+<p>Saya tau tulisan dalam artikel-artikel ini kurang memiliki ejaan yang pas seperti seharusnya teratur dalam EYD, tapi karena saya kurang bisa dan juga kurang suka dengan hal-hal berbau formal jadi siapa yang peduli.</p>
+<p>Tulisan disini semoga saja bisa bermanfaat untuk para pembaca, selebihnya saya pribadi karena saya sering lupa, mungkin juga bisa menjadi jembatan untuk ide-ide intelektual di masa depan nanti.</p>
+
+
     </article>
+  <br>
   <br>
   <br>
 </main>

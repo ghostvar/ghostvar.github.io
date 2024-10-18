@@ -4,138 +4,100 @@
     <title>Bebas Saya Mau Bahas Apa Aja</title>
     <link>https://didin.me/</link>
     <description>Recent content on Bebas Saya Mau Bahas Apa Aja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>id-id</language>
-    <lastBuildDate>Wed, 28 Aug 2024 16:01:12 +0700</lastBuildDate>
-    
-	<atom:link href="https://didin.me/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 18 Oct 2024 13:46:49 +0700</lastBuildDate>
+    <atom:link href="https://didin.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sedikit Diskusi #6</title>
+      <title>Redmi 9 Bootloop Tanpa Sebab</title>
+      <link>https://didin.me/posts/redmi-9-bootloop-tanpa-sebab/</link>
+      <pubDate>Fri, 18 Oct 2024 13:46:49 +0700</pubDate>
+      <guid>https://didin.me/posts/redmi-9-bootloop-tanpa-sebab/</guid>
+      <description>Pertengahan tahun kemarin hp doi yang sudah ndak kepake Xiaomi Redmi 9 diwarisin ke orangtua, walaupun sebenernya akhirnya juga jarang dipake karena ada masalah.&#xA;Hp Xiaomi ini mati tiba-tiba tanpa sebab, padahal pemakaian biasa masih normal, tapi setelah lama tidak di pakai malah tiba-tiba bermasalah.&#xA;Masalahnya adalah bootloop padahal tidak pernah melakukan modifikasi ROM / Firmware dan semacamnya, alhasil saya flash ulang untuk sementara berhasil, tidak untuk waktu yang lama masalah bootloop berulah lagi.</description>
+    </item>
+    <item>
+      <title>Install File Binary Archive Zip Tar Gz Di Linux</title>
+      <link>https://didin.me/posts/installing-binary-archive-di-linux/</link>
+      <pubDate>Sat, 12 Oct 2024 13:52:03 +0700</pubDate>
+      <guid>https://didin.me/posts/installing-binary-archive-di-linux/</guid>
+      <description>Sebenernya orang-orang umumnya tidak peduli kamu menggunakan linux, bahkan orangtua kamu. Tapi sebagian lagi orang non umum peduli, khususnya dalam dunia teknologi.&#xA;Saya mengakui dalam kebutuhan tertentu, macOS dan Windows adalah pilihan. Tapi dalam dunia teknologi linux superior, tapi kita sedang tidak membandingkan OS disini.&#xA;Karena akhir-akhir ini lebih sering bekerja di server, linux jauh lebih stabil ketimbang windows, lalu setelahnya BSD Based.&#xA;Khususnya dalam kebutuhan installasi program sudah ada package manager, yang mempermudah installasi aplikasi sekaligus library di dalamnya.</description>
+    </item>
+    <item>
+      <title>Pedatren: Ketika Pengabdian Berkolaborasi Dengan Teknologi Informasi</title>
+      <link>https://didin.me/posts/pedatren-ketika-pengabdian-berkolaborasi-dengan-teknologi/</link>
+      <pubDate>Fri, 11 Oct 2024 17:44:42 +0700</pubDate>
+      <guid>https://didin.me/posts/pedatren-ketika-pengabdian-berkolaborasi-dengan-teknologi/</guid>
+      <description>Pondok Pesantren Nurul Jadid Painton Probolinggo, Tempat Mengaji dan Membina Akhlak. Begitulah misi nya, saya masuk pondok pesantren ini ketika sekolah menengah atas dan masuk di salah satu lembaga kejuruan yaitu SMK Nurul Jadid.&#xA;Sebelumnya saya sudah masuk pondok pesantren ketika lulus sekolah dasar, di Pondok Pesantren Syalafiah Syafi&amp;rsquo;iyah Sukorejo. Tidak banyak kenangan yang saya ingat, hanya beberapa momen keluh dan kesah yang masih berbekas di benak.&#xA;Karena tidak ada yang spesial dalam jenjang pendidikan sebelumnya saya memiliki tekat kuat untuk belajar, ketika masuk Pondok Pesantren Nurul Jadid.</description>
+    </item>
+    <item>
+      <title>Sedikit Diskusi, #6</title>
       <link>https://didin.me/diskusi/apa-arti-kehidupan/</link>
       <pubDate>Mon, 07 Oct 2024 22:04:29 +0700</pubDate>
-      
       <guid>https://didin.me/diskusi/apa-arti-kehidupan/</guid>
-      <description>apa arti kehidupan, walaupun secara iman sudah ada jawabannya yaitu mencari ridho Allah.
-hidup dengan agama itu simpel, kalau susah itu cobaan atau ujian tuhan yang perlu di jalani dengan sabar,
-tuhan itu sayang ke hambanya karena tak akan diberikan ujian kepada hamba jikalau seorang hamba ini tidaklah mampu,
-atau bisa saja tuhan murka terhadap kesalahan hambanya walau sekecil biji dzarrah dan menjadikannya sebagai balasan,
-dan apabila kehidupan seorang hamba ini penuh senang tidak ada masalah juga kemungkinan dua hal</description>
+      <description>apa arti kehidupan, walaupun secara iman sudah ada jawabannya yaitu mencari ridho Allah.&#xA;hidup dengan agama itu simpel, kalau susah itu cobaan atau ujian tuhan yang perlu di jalani dengan sabar,&#xA;tuhan itu sayang ke hambanya karena tak akan diberikan ujian kepada hamba jikalau seorang hamba ini tidaklah mampu,&#xA;atau bisa saja tuhan murka terhadap kesalahan hambanya walau sekecil biji dzarrah dan menjadikannya sebagai balasan,&#xA;dan apabila kehidupan seorang hamba ini penuh senang tidak ada masalah juga kemungkinan dua hal</description>
     </item>
-    
     <item>
       <title>Masalah Umum Laravel CSRF Token 419 Page Expired</title>
       <link>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</link>
       <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
-      
       <guid>https://didin.me/posts/masalah-umum-laravel-csrf-419-page-expired/</guid>
-      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,
-Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut
-&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
+      <description>Dulu jaman SMK waktu belajar awal Laravel nemu masalah paling umum yaitu laman kadaluarsa, hal ini terjadi ketika mengirimkan form dengan method POST tanpa directive @csrf,&#xA;Solusi simpel adalah tinggal tambah directive @csrf di dalam tag &amp;lt;form&amp;gt; atau membuat input khusus dengan nama token seperti berikut&#xA;&amp;lt;input name=&amp;#34;_token&amp;#34; type=&amp;#34;hidden&amp;#34; value=&amp;#34;{{ @csrf_token() }}&amp;#34;&amp;gt; Hanya saja masalah ini berlanjut, ketika form di tinggal lama dalam waktu tertentu membuat token tersebut kadaluarsa. Umumnya ini akan menjadi masalah kepada user pengguna aplikasi karena halaman yang tidak umum muncul (page error 419).</description>
     </item>
-    
     <item>
       <title>Jangan generate hash password di web secara bebas</title>
       <link>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</link>
       <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
-      
       <guid>https://didin.me/posts/jangan-generate-hash-password-di-web-bebas/</guid>
-      <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang
- Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
+      <description>TL;DR - Kita tidak tahu apakah web tersebut akan menyimpan password dan hasil salt untuk jangka panjang&#xA;Sebagai seorang Developer yang mungkin sudah tahu sampai dasar enkripsi Bagaimana login itu bekerja dalam suatu sistem pastinya pernah mencoba untuk membuat login akan tetapi menggunakan username dan password yang langsung disimpan ke dalam database tanpa di enkripsi hal itu menjadikan ketidakanan bagi pengguna di mana seorang developer yang mempunyai akses terhadap database pun akan tahu password yang user miliki</description>
     </item>
-    
     <item>
       <title>Laboratorium</title>
       <link>https://didin.me/labs/</link>
       <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
-      
       <guid>https://didin.me/labs/</guid>
-      <description>Ada banyak riset di waktu lalu, yang saya simpan ke dalam folder proyek test memuat banyak testing framework, bahasa pemrograman, script, dan lain sebagainya, yang tidak bisa saya selalu ingat.
-Jadi dengan adanya artikel ini diharapkan semua riset yang telah saya lakukan dapat saya tulis secara rinci dan jelas sehingga mudah untuk ingat, untungnya bisa bermanfaat untuk para pembaca.
-List Todo dan Hasil Riset  Riset ELK Riset filesystem LVM, ZFS, atau BTRFS Migrasi linux vmware ke proxmox lxc Automatic Postgresql Backup git based versioning Cloudflare Tunnel Riset ESP32 NFC/RFID USB HID ESP32 (Keyboard Mouse to Bluetooth) USB MIDI Controller (Pitch + Mod) USB MIDI Host Sampler ESP32 (perlu DAC) Riset ESP32 CAM (low fps/low quality) Job/Task Queue-Scheduling &amp;amp; Web Hooks Ollama &amp;amp; Docker &amp;amp; Nvidia gpu Riset Teknologi Proxmox (Ceph, Cloudinit, Pbs) Podman Problem (Systemd &amp;amp; Port Expose) Log Data harvesting &amp;amp; store in timeseriesdb Riset Microsoft Active Directory GoHugo Webpage Proxmox HA (Distributed Storage)  Keterangan: Checklist: riset selesai, Tebal: Prioritas, Strip: Riset Drop / tidak dilanjutkan.</description>
+      <description>Ada banyak riset di waktu lalu, yang saya simpan ke dalam folder proyek test memuat banyak testing framework, bahasa pemrograman, script, dan lain sebagainya, yang tidak bisa saya selalu ingat.&#xA;Jadi dengan adanya artikel ini diharapkan semua riset yang telah saya lakukan dapat saya tulis secara rinci dan jelas sehingga mudah untuk ingat, untungnya bisa bermanfaat untuk para pembaca.&#xA;List Todo dan Hasil Riset Riset ELK Riset filesystem LVM, ZFS, atau BTRFS Migrasi linux vmware ke proxmox lxc Automatic Postgresql Backup git based versioning Cloudflare Tunnel Riset ESP32 NFC/RFID USB HID ESP32 (Keyboard Mouse to Bluetooth) USB MIDI Controller (Pitch + Mod) USB MIDI Host Sampler ESP32 (perlu DAC) Riset ESP32 CAM (low fps/low quality) Job/Task Queue-Scheduling &amp;amp; Web Hooks Ollama &amp;amp; Docker &amp;amp; Nvidia gpu Riset Teknologi Proxmox (Ceph, Cloudinit, Pbs) Podman Problem (Systemd &amp;amp; Port Expose) Log Data harvesting &amp;amp; store in timeseriesdb Riset Microsoft Active Directory GoHugo Webpage Proxmox HA (Distributed Storage) Keterangan: Checklist: riset selesai, Tebal: Prioritas, Strip: Riset Drop / tidak dilanjutkan.</description>
     </item>
-    
     <item>
       <title>Mukadimah</title>
       <link>https://didin.me/posts/mukadimah/</link>
       <pubDate>Wed, 28 Aug 2024 16:01:12 +0700</pubDate>
-      
       <guid>https://didin.me/posts/mukadimah/</guid>
-      <description>Entahlah karena mungkin kadang dengan tidak adanya pekerjaan, bisa jadi sebuah proyek atau hal-hal lainnya,
-Selain kenikmatan untuk bisa bersantai ternyata santai itu akan menjadi sebuah kebosanan yang di mana itu adalah masalah baru
-Padahal sebenarnya disaat itu lah imajinasi muncul, alhasil selain melakukan pekerjaan hobi dan aktivitas lainnya, baik itu Mengisi waktu luang bersama keluarga atau Mengisi waktu sendiri ada hal-hal yang memang dirasa dibutuhkan khusus,
-Dan setiap tipe orang itu umumnya memiliki kebiasaan yang berbeda-beda, mungkin berolahraga bisa juga mungkin bermusik dan lain sebagainya</description>
+      <description>Entahlah karena apa, cuman ingin menambah aktivitas positif saja, seperti contoh ya menulis artikel ini.&#xA;Awal punya ketertarikan dengan bilang elektronik ketika SD, karena terpukau dengan barang-barang elektronik ketika keluar musik dan orang tua saya menyolder, walau sampai sekarang saya masih amatiran untuk hal tersebut, saya masih berharap bisa membenahi kulkas orangtua yang sudah saya rusak.&#xA;Beralih hobi ke bidang musik, berasarkan elektronik karena di sekolah juga terpukau dengan barang yang disebut organ dalam hal ini piano sekolah Roland EM-25.</description>
     </item>
-    
     <item>
       <title>Sedikit Diskusi, #5</title>
       <link>https://didin.me/diskusi/pelampiasan-dan-penyesalan/</link>
       <pubDate>Thu, 04 Apr 2024 10:32:02 +0700</pubDate>
-      
       <guid>https://didin.me/diskusi/pelampiasan-dan-penyesalan/</guid>
-      <description>tentang pelampiasan dan penyesalan, mungkin lingkupnya hanya sebatas pemecahan masalah
-antara &amp;ldquo;apa yang bisa tak lampiaskan selain kerja&amp;rdquo; atau &amp;ldquo;siapa lagi yang kamu lampiaskan dari kerjaan kamu&amp;rdquo;
-dengan dasar melampiaskan sesuatu dalam bentuk fisik atau non fisik apa akan memberikan dampak positif terhadap
-segala belah bihak yang turut berlarut dalam masalah, bahkan menjadi akar baru untuk permasalahan baru lagi
-dengan dasar apa dan tujuan apa, dengan pelampiasan apakah menjadi puas, atau menjadi suatu penyesalahan dalam hidup</description>
+      <description>tentang pelampiasan dan penyesalan, mungkin lingkupnya hanya sebatas pemecahan masalah&#xA;antara &amp;ldquo;apa yang bisa tak lampiaskan selain kerja&amp;rdquo; atau &amp;ldquo;siapa lagi yang kamu lampiaskan dari kerjaan kamu&amp;rdquo;&#xA;dengan dasar melampiaskan sesuatu dalam bentuk fisik atau non fisik apa akan memberikan dampak positif terhadap&#xA;segala belah bihak yang turut berlarut dalam masalah, bahkan menjadi akar baru untuk permasalahan baru lagi&#xA;dengan dasar apa dan tujuan apa, dengan pelampiasan apakah menjadi puas, atau menjadi suatu penyesalahan dalam hidup</description>
     </item>
-    
     <item>
       <title>Sedikit Diskusi, #4</title>
       <link>https://didin.me/diskusi/menerima-menghadapi-menjalani/</link>
       <pubDate>Sun, 04 Feb 2024 13:25:13 +0700</pubDate>
-      
       <guid>https://didin.me/diskusi/menerima-menghadapi-menjalani/</guid>
-      <description>disclaimer: baiknya pemikiran ini seharusnya di tanyakan kepada ustadz atau ahli agama
- kapan kita bisa menentukan kita sabar menerima, sabar menghadapi, atau sabar menjalani
-&amp;ldquo;kenapa cobaan berat ini jatuh ke saya bukan ke orang lain&amp;rdquo; atau &amp;ldquo;kamu masih mending, saya loh&amp;hellip;&amp;rdquo;
-setiap manusia pasti akan terfikir demikian secara relatif letak diri
-walau kita telah menilai diri sudah penuh kesabaran, ada apa dengan kehidupan ini
-apakah tuhan pengasih dan penyayang, atau telah bosan dengan diri kita</description>
+      <description>disclaimer: baiknya pemikiran ini seharusnya di tanyakan kepada ustadz atau ahli agama&#xA;kapan kita bisa menentukan kita sabar menerima, sabar menghadapi, atau sabar menjalani&#xA;&amp;ldquo;kenapa cobaan berat ini jatuh ke saya bukan ke orang lain&amp;rdquo; atau &amp;ldquo;kamu masih mending, saya loh&amp;hellip;&amp;rdquo;&#xA;setiap manusia pasti akan terfikir demikian secara relatif letak diri&#xA;walau kita telah menilai diri sudah penuh kesabaran, ada apa dengan kehidupan ini&#xA;apakah tuhan pengasih dan penyayang, atau telah bosan dengan diri kita</description>
     </item>
-    
     <item>
       <title>Sedikit Diskusi, #3</title>
       <link>https://didin.me/diskusi/dua-orang-pedagang/</link>
       <pubDate>Sat, 20 Jan 2024 06:54:44 +0700</pubDate>
-      
       <guid>https://didin.me/diskusi/dua-orang-pedagang/</guid>
-      <description>Membahas tentang kesalahan orang yang tidak akan habis-habis
-ada teman yang juga membahas dalam suatu cerita singkat pedagang,
-ada dua pedagang yang menjual hal yang sama, kita sebut pedagang A dan pedagang B,
-mereka sesama pedagang sayur, suatu saat pedagang A memiliki pembeli yang lebih ramai dari pedagang B,
-sehingga pegadang B jadi merasa tersaingi dan menganggap karena pedagang A lah menjadikan dagang B sepi.
-secara ego, hal tersebut adalah kesimpulan.</description>
+      <description>Membahas tentang kesalahan orang yang tidak akan habis-habis&#xA;ada teman yang juga membahas dalam suatu cerita singkat pedagang,&#xA;ada dua pedagang yang menjual hal yang sama, kita sebut pedagang A dan pedagang B,&#xA;mereka sesama pedagang sayur, suatu saat pedagang A memiliki pembeli yang lebih ramai dari pedagang B,&#xA;sehingga pegadang B jadi merasa tersaingi dan menganggap karena pedagang A lah menjadikan dagang B sepi.&#xA;secara ego, hal tersebut adalah kesimpulan.</description>
     </item>
-    
     <item>
       <title>Sedikit Diskusi, #2</title>
       <link>https://didin.me/diskusi/sudah-tiada-baru-terasa/</link>
       <pubDate>Sun, 31 Dec 2023 13:51:26 +0700</pubDate>
-      
       <guid>https://didin.me/diskusi/sudah-tiada-baru-terasa/</guid>
-      <description>bicara tentang pengalaman, entah kenapa ada fase dimana sesuatu itu berharga,
-dan terkadang juga bisa tidak berharga, tergantung dari perspektif dan kondisi.
-fase pertama dimana masih menjadi suatu keinginan, ada halnya kita ingin kekayaan
-ingin sukses, ingin bahagia, atau ingin sepasang kekasih. di fase ini semangat sangatlah kuat,
-akan melakukan apapun untuk mendapatkan yang di inginkan, produktifitas, usaha adalah prioritas.
-fase kedua yaitu telah memiliki hal tersebut, relatif ada momen senang telah tercapai, akan tetapi</description>
+      <description>bicara tentang pengalaman, entah kenapa ada fase dimana sesuatu itu berharga,&#xA;dan terkadang juga bisa tidak berharga, tergantung dari perspektif dan kondisi.&#xA;fase pertama dimana masih menjadi suatu keinginan, ada halnya kita ingin kekayaan&#xA;ingin sukses, ingin bahagia, atau ingin sepasang kekasih. di fase ini semangat sangatlah kuat,&#xA;akan melakukan apapun untuk mendapatkan yang di inginkan, produktifitas, usaha adalah prioritas.&#xA;fase kedua yaitu telah memiliki hal tersebut, relatif ada momen senang telah tercapai, akan tetapi</description>
     </item>
-    
     <item>
       <title>Sedikit Diskusi, #1</title>
       <link>https://didin.me/diskusi/pilot-bisa-menjadi-guru/</link>
       <pubDate>Sun, 03 Sep 2023 22:16:34 +0700</pubDate>
-      
       <guid>https://didin.me/diskusi/pilot-bisa-menjadi-guru/</guid>
-      <description>akhir2 ini ada banyak pembahasan tentang pilot bisa menjadi guru sedangkan tidak sebaliknya,
-makna yang terkandung diatas apa? semua pilot adalah guru?
-mengingat kembali dulu ada pembahasan di twitter, filsafat itu haram.
-kurang lebih karena salah pemahaman atau salam penafsiran, atau disinformasi (perlu paham betul tentang konteks isi).
-kembali ke pembahasan utama, asal usul kata kata yang di sebutkan diawal berasal dari guru gembul (bisa cek di google),
-yang dimana mengkritisi tenaga pengajar di indonesia tidak sesuai dengan prosedur keilmuan yang harusnya di ajarkan.</description>
+      <description>akhir2 ini ada banyak pembahasan tentang pilot bisa menjadi guru sedangkan tidak sebaliknya,&#xA;makna yang terkandung diatas apa? semua pilot adalah guru?&#xA;mengingat kembali dulu ada pembahasan di twitter, filsafat itu haram.&#xA;kurang lebih karena salah pemahaman atau salam penafsiran, atau disinformasi (perlu paham betul tentang konteks isi).&#xA;kembali ke pembahasan utama, asal usul kata kata yang di sebutkan diawal berasal dari guru gembul (bisa cek di google),&#xA;yang dimana mengkritisi tenaga pengajar di indonesia tidak sesuai dengan prosedur keilmuan yang harusnya di ajarkan.</description>
     </item>
-    
   </channel>
 </rss>

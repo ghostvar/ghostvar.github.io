@@ -4,48 +4,79 @@
     <title>Tags on Bebas Saya Mau Bahas Apa Aja</title>
     <link>https://didin.me/tags/</link>
     <description>Recent content in Tags on Bebas Saya Mau Bahas Apa Aja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>id-id</language>
-    <lastBuildDate>Sun, 06 Oct 2024 21:49:20 +0700</lastBuildDate>
-    
-	<atom:link href="https://didin.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 18 Oct 2024 13:46:49 +0700</lastBuildDate>
+    <atom:link href="https://didin.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>laravel</title>
-      <link>https://didin.me/tags/laravel/</link>
-      <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
-      
-      <guid>https://didin.me/tags/laravel/</guid>
+      <title>Elektronik</title>
+      <link>https://didin.me/tags/elektronik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/elektronik/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>programming</title>
+      <title>Perbaikan</title>
+      <link>https://didin.me/tags/perbaikan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/perbaikan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xiaomi</title>
+      <link>https://didin.me/tags/xiaomi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/xiaomi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://didin.me/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zig</title>
+      <link>https://didin.me/tags/zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/zig/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
       <link>https://didin.me/tags/programming/</link>
-      <pubDate>Sun, 06 Oct 2024 21:49:20 +0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://didin.me/tags/programming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hash</title>
+      <title>Story</title>
+      <link>https://didin.me/tags/story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/story/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>https://didin.me/tags/laravel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://didin.me/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash</title>
       <link>https://didin.me/tags/hash/</link>
-      <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://didin.me/tags/hash/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://didin.me/tags/security/</link>
-      <pubDate>Tue, 03 Sep 2024 23:27:13 +0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://didin.me/tags/security/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
